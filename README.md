@@ -5,43 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cool GitHub Profile</title>
     <style>
-        body {
-            background-color: #212121;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
-        }
-        
-        h1 {
-            font-size: 48px;
-            margin-bottom: 30px;
-        }
-        
-        .profile-img {
-            width: 200px;
-            border-radius: 50%;
-            margin-bottom: 50px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        
-        .social-links {
-            margin-top: 30px;
-        }
-        
-        .social-link {
-            display: inline-block;
-            margin: 0 10px;
-            font-size: 24px;
-            color: #fff;
-            text-decoration: none;
-            transition: transform 0.3s;
-        }
-        
-        .social-link:hover {
-            transform: scale(1.2);
-        }
-    </style>
 </head>
 <body>
     <img class="profile-img" src="https://avatars.githubusercontent.com/your_username" alt="Profile Image">
