@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool GitHub Profile</title>
-    <style>
+    
+    <p>hack</p>
+    
 </head>
 <body>
     <img class="profile-img" src="https://avatars.githubusercontent.com/your_username" alt="Profile Image">
