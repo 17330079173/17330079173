@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome GitHub Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>My Cool GitHub Profile</title>
     <style>
         body {
-            background-color: #000;
+            background-color: #212121;
             color: #fff;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding-top: 200px;
+            padding-top: 100px;
         }
         
         h1 {
@@ -19,71 +18,39 @@
             margin-bottom: 30px;
         }
         
-        .github-logo {
+        .profile-img {
             width: 200px;
+            border-radius: 50%;
             margin-bottom: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         
-        .button {
+        .social-links {
+            margin-top: 30px;
+        }
+        
+        .social-link {
             display: inline-block;
-            padding: 10px 20px;
+            margin: 0 10px;
             font-size: 24px;
-            background-color: #fff;
-            color: #000;
-            border-radius: 5px;
-            margin: 10px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        
-        .button:hover {
-            background-color: #333;
             color: #fff;
+            text-decoration: none;
+            transition: transform 0.3s;
         }
         
-        .animated {
-            animation-duration: 2s;
-            animation-fill-mode: both;
-        }
-        
-        .fadeInDown {
-            animation-name: fadeInDown;
-        }
-        
-        .bounceIn {
-            animation-name: bounceIn;
-        }
-        
-        @keyframes fadeInDown {
-            0% {
-                opacity: 0;
-                transform: translateY(-100%);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes bounceIn {
-            0% {
-                opacity: 0;
-                transform: scale(0.1);
-            }
-            60% {
-                opacity: 1;
-                transform: scale(1.2);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
+        .social-link:hover {
+            transform: scale(1.2);
         }
     </style>
 </head>
 <body>
-    <h1 class="animated fadeInDown">Welcome to My GitHub Profile</h1>
-    <img class="github-logo animated bounceIn" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="GitHub Logo">
-    <a class="button" href="https://github.com">Go to my GitHub</a>
+    <img class="profile-img" src="https://avatars.githubusercontent.com/your_username" alt="Profile Image">
+    <h1>Welcome to My Cool GitHub Profile</h1>
+    <div class="social-links">
+        <a class="social-link" href="https://github.com/your_username"><i class="fab fa-github"></i></a>
+        <a class="social-link" href="https://twitter.com/your_username"><i class="fab fa-twitter"></i></a>
+        <a class="social-link" href="https://linkedin.com/in/your_username"><i class="fab fa-linkedin"></i></a>
+        <a class="social-link" href="https://your-website.com"><i class="fas fa-globe"></i></a>
+    </div>
 </body>
 </html>
