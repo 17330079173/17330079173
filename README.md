@@ -16,3 +16,13 @@
     </div>
 </body>
 </html>
+
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>This is a warehouse with a lot of vulnerabilities</name>
+       <sprict href=17330079173@163.com></sprict>
+       <br>My email:</repository>
+     <br>yaogeliu7@gmail.com</br>
+   </repository>
+</distributionManagement>
